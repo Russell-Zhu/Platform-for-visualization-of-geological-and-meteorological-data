@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html style="overflow:hidden" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地质数据</title>
+    <link rel="stylesheet" type="text/css" href="../css/zyh_css_science_popularization_education/style.css" />
+    <link rel="stylesheet" href="../css/zyh_css_science_popularization_education/dizhi.css">
+</head>
+<body>
+    <div id="header">
+
+        <a class="logo" href=#>logo</a>
+        
+        <div id="navbar">
+            <div class="title">
+                地质气象数据可视化综合平台
+            </div>
+            <a href="../zzq_index+scientificresearch/index.html">首页</a>
+            <a href="../zzq_index+scientificresearch/index.html?_ijt=nsavongmcad58fjg1hkge32fh7/#secondpage">科学研究</a>
+            <a href="../zzq_index+scientificresearch/index.html?_ijt=nsavongmcad58fjg1hkge32fh7/#thirdpage">科普教育</a>
+            <a href="../zzq_index+scientificresearch/index.html?_ijt=nsavongmcad58fjg1hkge32fh7/#forthpage">日常出行</a>
+            <div class="function">
+                <div  class="icon">
+                    <a href=""><img src="../imgs/zyh_science_popularization_education/voice.png" alt=""></a>
+                </div> 
+                <div class="icon">
+                    <a href=""><img src="../imgs/zyh_science_popularization_education/search.png" alt=""></a>
+                </div>
+                <div>
+                    <span style="font-size:20px; font-weight: bold;">搜索:</span>
+                    <input type="text" name="search" id="">
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div id="extra"></div>
+
+    <header>
+        <h1>地质数据呈现</h1>
+        <div class="showTime">当前时间：2020年3月17-0时54分14秒</div>
+        <script>
+            var t = null;
+            t = setTimeout(time, 1000); //開始运行
+            function time() {
+                clearTimeout(t); //清除定时器
+                dt = new Date();
+                var y = dt.getFullYear();
+                var mt = dt.getMonth() + 1;
+                var day = dt.getDate();
+                var h = dt.getHours(); //获取时
+                var m = dt.getMinutes(); //获取分
+                var s = dt.getSeconds(); //获取秒
+                document.querySelector(".showTime").innerHTML =
+                    "当前时间：" +
+                    y +
+                    "年" +
+                    mt +
+                    "月" +
+                    day +
+                    "-" +
+                    h +
+                    "时" +
+                    m +
+                    "分" +
+                    s +
+                    "秒";
+                t = setTimeout(time, 1000); //设定定时器，循环运行
+            }
+        </script>
+    </header>
+
+    <!-- 页面主体 -->
+    <section class="mainbox">
+        <!-- 列1 -->
+        <div class="column">
+            <div class="panel pie">
+                <h2>
+                    矿产分布数据 <a href="javascript:;">能源矿产</a>
+                    <a href="javacript:;"> 贵金属矿产</a>
+                </h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel bar">
+                <h2>全国水资源情况</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel piec">
+                <h2>全国土地利用情况</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <!-- 列2 -->
+        <div class="column">
+            <div class="no">
+                <div class="no-hd">
+                    <h2>近10年全国各地区沙土化情况</h2>
+                </div>
+            </div>
+            <div class="map">
+                <div class="chart"></div>
+                <div class="map1"></div>
+                <div class="map2"></div>
+                <div class="map3"></div>
+            </div>
+        </div>
+        <!-- 列3 -->
+        <div class="column">
+            <div class="panel bar1">
+                <h2>主要矿产基础储量</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel line1">
+                <h2>主要山脉情况</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel pie1">
+                <h2>近三年地震高发地区数据</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/zyh_js/flexible.js"></script>
+    <script src="../js/zyh_js/jquery.js"></script>
+    <script src="../js/zyh_js/echarts.min.js"></script>
+    <script src="../js/zyh_js/dizhi.js"></script>
+    <script src="../js/zyh_js/china.js"></script>
+    <script src="../js/zyh_js/myMap1.js"></script>
+
+</body>
+</html>
