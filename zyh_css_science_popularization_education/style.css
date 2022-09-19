@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.return{
+    height:50px;
+    width: 50px;
+    /* border: 1px black solid; */
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+}
+.return img{
+    height:50px;
+    width: 50px;
+}
+#container{
+    margin: 0 auto;
+    width: auto;
+    height: 500px;
+    /* background-color: antiquewhite; */
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 1900px;
+    height: 65px;
+    background-color: white;
+    border-bottom:1px solid black;
+}
+
+#header .logo{
+    display: block;
+    width: 150px;
+    float: left;
+    font-size: 40px;
+    line-height: 65px;
+    text-align: center;
+}
+#navbar{
+    float: left;
+    /* background-color: dodgerblue; */
+    width: 1750px;
+}
+#navbar .title{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    line-height: 65px;
+}
+#navbar a{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 65px;
+    margin-left: 10px;
+}
+#navbar .function{
+    float: right;
+    line-height: 65px;
+    /* border: 1px black solid; */
+}
+#navbar .function img{
+    height: 30px;
+    width: 30px;
+}
+#navbar .function div{
+    float:right;
+}
+#navbar .function .icon{
+    height: 65px;
+    padding-top: 10px;
+}
+
+/*header end*/
+
+#main{
+    margin-top: 65px;
+    /* background-color:cornflowerblue; */
+    margin-bottom: 5px;
+}
+#footer{
+    height: 60px;
+    background-color: #6cf;
+}
+
+
+#content{
+    width: auto;
+    /* background-color: #cff; */
+}
+#content .titlepage{
+    height: 600px;
+    background-color: #6cf;
+    width:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content .titlepage1{
+    background-image: url("../../imgs/zyh_science_popularization_education/bg1.png");
+}
+#content .titlepage2{
+    background-size: cover;
+    background-image: url("../../imgs/zyh_science_popularization_education/bg2.png");
+}
+#content .titlepage .container{
+    height: 500px;
+    width: 800px;
+    margin-left: 300px;
+}
+#content .titlepage .title{
+    height: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    line-height: 200px;
+}
+#content .titlepage .note{
+    font-size: 20px;
+    color: white;
+    height: 100px;
+}
+#content .titlepage .btn{
+    height: 55px;
+    width: 160px;
+    background-color: orange;
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 5px;
+}
+#content .titlepage .btn:hover{
+    background-color:orangered;
+}
+.modules{
+    height:700px;
+    width: auto;
+    /* background-color: #6cf; */
+}
+.modules .imgs{
+    width:940px;
+    height: 700px;
+    text-align: center;
+    float:left;
+}
+.modules .imgs img{
+    height: 700px;
+    width: 800px;
+}
+.modules .container{
+    width: 940px;
+    height: 700px;
+    float: left;
+    text-align: center;
+}
+.modules .container .title{
+    height: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 200px;
+}
+/* #footer{
+    clear: both;
+} */
+/* footer */
+#footer{
+    position:absolute;
+    top:4000px;
+    margin-top:500px;
+    width:100%;
+    height:500px;
+    background-color:black;
+    color:white;
+
+}
+#footerlogo{
+    position:absolute;
+    bottom:320px;
+    left:80px;
+    font-size:20px;
+}
+#footerinstitute{
+    position:absolute;
+    bottom:320px;
+    left:160px;
+    font-size:20px;
+}
+#webend{
+    position:absolute;
+    bottom:350px;
+    left:600px;
+}
+#append{
+    position:absolute;
+    bottom:350px;
+    left:720px;
+}
+#weixin1{
+    position:absolute;
+    bottom:350px;
+    left:820px;
+}
+#weixin2{
+    position:absolute;
+    bottom:350px;
+    left:960px;
+}
+#footercontact1{
+    position:absolute;
+    bottom:350px;
+    left:1160px;
+    font-size:20px;
+}
+#footercontact2{
+    position:absolute;
+    bottom:290px;
+    left:1160px;
+    font-size:20px;
+}
+#webenddes{
+    position:absolute;
+    bottom:300px;
+    left:615px;
+    text-decoration:none;
+    color:white;
+}
+#appenddes{
+    position:absolute;
+    bottom:300px;
+    left:730px;
+    text-decoration:none;
+    color:white;
+}
+#weixin1des{
+    position:absolute;
+    bottom:300px;
+    left:841px;
+    text-decoration:none;
+    color:white;
+}
+#weixin2des{
+    position:absolute;
+    bottom:300px;
+    left:978px;
+    text-decoration:none;
+    color:white;
+}
+#footercopyright{
+    position:absolute;
+    bottom:120px;
+    left:80px;
+    font-size:18px;
+}
+
+
